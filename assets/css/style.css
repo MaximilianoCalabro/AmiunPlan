@@ -258,7 +258,7 @@ a,
 
 .bg-dark-30:before {
   position: absolute;
-  background: rgba(2, 2, 2, 0.4);
+  background: rgba(2, 2, 2, 0.1);
   content: " ";
   height: 100%;
   width: 100%;
@@ -268,7 +268,7 @@ a,
 
 .bg-dark-60:before {
   position: absolute;
-  background: rgba(34, 34, 34, 0.8);
+  background: rgba(34, 34, 34, 0.2);
   content: " ";
   height: 100%;
   width: 100%;
@@ -278,7 +278,7 @@ a,
 
 .bg-dark-90:before {
   position: absolute;
-  background: rgba(34, 34, 34, 0.9);
+  background: rgba(34, 34, 34, 0.3);
   content: " ";
   height: 100%;
   width: 100%;
@@ -713,7 +713,7 @@ a,
 }
 
 .btn.btn-d {
-  background: #DC2929;
+  background: #B41F26;
   color: #fff;
 }
 
@@ -2507,14 +2507,14 @@ Google map
   color: black;
 }
 .red {
-  background-color: #E53935;
+  background-color: #B41F26;
 }
 .boton_pos{
   text-align: center;
   margin-bottom: 50px;
 }
-.chat {
-  background: rgba(255,255,255,0.2);
+.chat_r, .chat_w {
+  /*background: rgba(255,255,255,0.2);*/
   width: 2em;
   padding-right: 5px;
 }
@@ -2530,15 +2530,15 @@ Google map
 }
 .buttonR {
     border-radius: 0.25em;
-    padding: 1em 2em;
+    padding: 1em 1.5em;
       font-size: 14px;
       font-weight: 700;
     background-color: transparent;
-    color: #E53935;
-    border: 2px solid #E53935;
+    color: #B41F26;
+    border: 2px solid #B41F26;
 }
 .buttonR:hover {
-    background-color: #E53935;
+    background-color: #B41F26;
     color: white;
 }
 .buttonW {
@@ -2552,7 +2552,7 @@ Google map
 }
 .buttonW:hover {
     background-color: #fff;
-    color: #E53935;
+    color: #B41F26;
 }
 /*--------------------------------------------------------------
 	Shop Items
