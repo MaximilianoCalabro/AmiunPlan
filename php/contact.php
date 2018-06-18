@@ -47,12 +47,13 @@
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
+	$plan = $_POST['plan'];
 	$message = $_POST['message'];
 	$from = $email;
 	$to = 'fantasymax@gmail.com';  // please change this email id !!!!!!!!!!
 	$subject = 'PLAN DE AHORRO';
 
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+	$body = "From: $name\n E-Mail: $email\n Plan: $plan\n Message:\n $message";
 
 	$headers = "From: ".$from;
 
